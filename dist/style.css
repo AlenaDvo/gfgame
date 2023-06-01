@@ -1,20 +1,38 @@
-/* body {
-  background: gray;
-  padding-top: 100%;
-  border: solid ;
-} */
+#bigcontainer {
+  background-color: rgb(216, 174, 174);
+  /* padding-top: 100%; */
+  width: 1000px;
+  /* height: 80px; */
+  margin-left: auto;
+  margin-right: auto;
+  border: solid;
+  display: flex;
+  /* position: relative; */
+}
+
+#playcontainer {
+  position: relative;
+  top: 0;
+  /* border: solid; */
+  background-color: aqua;
+  width: 800px;
+  height: 800px;
+}
 
 p {
   position: absolute;
-  margin: 0;
-  top: 50%;
+  /* margin: 0; */
   font-size: 40px;
+  
 }
 
 #p1 {
   left: 33%;
+  top: 300px;
 }
 
 #p2 {
   right: 33%;
+  bottom: 300px;
+  /* top: 300px; */
 }
