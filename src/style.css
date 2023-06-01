@@ -1,0 +1,20 @@
+/* body {
+  background: gray;
+  padding: 200px;
+  border: solid ;
+}
+ */
+p {
+  position: absolute;
+  margin: 0;
+  top: 50%;
+  font-size: 40px;
+}
+
+#p1 {
+  left: 33%;
+}
+
+#p2 {
+  right: 33%;
+}
