@@ -1,38 +1,58 @@
+body {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+.description {
+  text-align: center;
+  padding-bottom: 20px;
+  font-size: 20px;
+}
+
 #bigcontainer {
   background-color: rgb(216, 174, 174);
-  /* padding-top: 100%; */
   width: 1000px;
-  /* height: 80px; */
   margin-left: auto;
   margin-right: auto;
   border: solid;
   display: flex;
-  /* position: relative; */
 }
 
 #playcontainer {
   position: relative;
   top: 0;
-  /* border: solid; */
-  background-color: aqua;
-  width: 800px;
+  background-color: rgb(65, 233, 233);
+  width: 700px;
   height: 800px;
 }
 
 p {
   position: absolute;
-  /* margin: 0; */
   font-size: 40px;
-  
 }
 
 #p1 {
   left: 33%;
-  top: 300px;
+  top: 334px;
 }
 
 #p2 {
   right: 33%;
-  bottom: 300px;
-  /* top: 300px; */
+  bottom: 334px;
+}
+
+#scorecontainer {
+  margin-left: 20px;
+}
+
+.h2text {
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+#countdown {
+  text-align: center;
 }
